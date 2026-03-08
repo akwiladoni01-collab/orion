@@ -1,0 +1,130 @@
+/* RESET DASAR */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY - BACKGROUND LUAR ANGKASA */
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    background: radial-gradient(circle at top, #1b2735, #090a0f);
+    color:white;
+}
+
+/* HEADER */
+header{
+    width:100%;
+    padding:15px 40px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:20px;
+}
+
+header a{
+    text-decoration:none;
+    color:#d0d7ff;
+    font-size:14px;
+    transition:0.3s;
+}
+
+header a:hover{
+    color:#6fa3ff;
+}
+
+/* ICON APPS */
+.apps{
+    display:grid;
+    grid-template-columns:repeat(3,6px);
+    gap:4px;
+    cursor:pointer;
+}
+
+.apps span{
+    width:6px;
+    height:6px;
+    background:#8aa4ff;
+    border-radius:50%;
+}
+
+/* PROFILE */
+.profile{
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    background:#4c6fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/* CONTAINER UTAMA */
+.container{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+/* LOGO ORION */
+.logo{
+    font-size:70px;
+    letter-spacing:8px;
+    margin-bottom:40px;
+    color:white;
+}
+
+/* SEARCH BOX */
+.search-box{
+    display:flex;
+    border-radius:30px;
+    overflow:hidden;
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+/* INPUT SEARCH */
+.search-box input{
+    width:420px;
+    padding:14px 20px;
+    border:none;
+    outline:none;
+    font-size:16px;
+}
+
+/* BUTTON SEARCH */
+.search-box button{
+    padding:14px 25px;
+    border:none;
+    background:#4c6fff;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.search-box button:hover{
+    background:#3655e0;
+}
+
+/* TAGLINE */
+.tagline{
+    margin-top:15px;
+    font-size:14px;
+    color:#cfd8ff;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:15px;
+    font-size:13px;
+    color:#9aa7ff;
+}
